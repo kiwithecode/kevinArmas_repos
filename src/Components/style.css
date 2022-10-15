@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #1d3557;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+}
+.left-content,
+.right-content {
+  flex-basis: 50%;
+}
+.left-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 15fr));
+  grid-gap: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f1faee;
+  padding: 1.5rem 1.5rem;
+  border-radius: 8px;
+  max-height: 500px;
+  margin-left: 32px;
+}
+.right-content {
+  width: 50%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  top: 90px;
+  right: -300px;
+}
+.right-content img {
+  margin: 5rem;
+  height: 160px;
+}
+.group-spice img {
+  margin: 2rem;
+  height: 75px;
+}
+.right-content h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.abilities {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+.abilities .group {
+  background-color: #808080;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+.type {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.type .group {
+  background-color: #0022ff;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+.base-stat {
+  margin-top: 1rem;
+}
+.btn-group {
+  display: flex;
+}
+.btn-group button {
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 0.3rem 0;
+  margin: 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: #b74555;
+  border-radius: 8px;
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+}
+.card-info {
+  width: 500px;
+  top: 155px;
+
+  background: #e63946;
+  border-radius: 10px;
+}
